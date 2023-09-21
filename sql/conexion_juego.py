@@ -2,10 +2,10 @@ import pymysql
 
 class DataBaseJuego:
     def __init__(self):
-        self.conexion = pymysql.connect(host='107.167.93.202',
-                                    user='jookeezc_criptojookeez',
-                                    password='c0ntr4$3n4_',
-                                    db='jookeezc_criptograma')
+        self.conexion = pymysql.connect(host='',
+                                    user='',
+                                    password='',
+                                    db='')
         self.cursor = self.conexion.cursor()
 
     def get_conexion(self):
